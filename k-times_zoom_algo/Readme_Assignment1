@@ -1,0 +1,27 @@
+This problem here is solved using a modified version of "k-times zooming algorithm".
+
+Let say image dimension is: (widthxheight)
+If zooming scale is k and pivot point is (x,y) then we first crop the image area (width/k)X(height/k) with pivot as the centre point with handling corner cases properly.
+Then we implement "k-times zooming algorithm" to zoom that area to k times so the final image size will be(widthxheight).
+
+Note:
+*Any libraries/packages, NumPy functions/methods are not used.
+*All the corner cases are handeled.
+*"K-Times Zooming algorithm" is implemented.
+ 
+
+
+Example: image size: (360,140)
+
+pivot= (359,0)
+
+             0 1 2 .. ........            359
+           0  -------------------------------- <------------(359,0)
+           1  -                              -
+           2  -                              -
+           .  -                              -
+           .  -                              -
+           .  -                              -
+              -                              -
+              -                              -
+         139  --------------------------------
