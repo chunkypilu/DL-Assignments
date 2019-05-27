@@ -1,0 +1,4 @@
+
+    optimizer                       -  #epochs  -  accuracy
+1.  sgd(lr=0.01,momentum=0.8)       -    20     -   70.54%
+2.  rmsprop                         -    30     -   75.56%

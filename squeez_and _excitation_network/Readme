@@ -1,0 +1,10 @@
+There are 3 file:
+
+1.loadcifar10.py:  will download the cifar10 dataset in a folder in your system, and the data set will now be loaded manually.
+2.squeez_excitation.py:  This is code for "squeez and excitation" part.
+3.Resnet_SENET.py: This is our main code which imports above 2 files.
+4.job_script.sh: This is job script to run model on HPC.
+5.testseresnet.py: This file will load our saved model "seresnet.h5" and will evaluate on test data.
+6.result: It includes some results.
+7.seresnet.h5 :model trained for 30 epochs with "rmsprop" optimizer.
+ 
